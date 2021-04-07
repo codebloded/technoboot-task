@@ -1,7 +1,6 @@
 .section{
-    /* position: relative;
-    bottom: 20px; */
-    background-image: url(/src/online.jpg);
+  
+    background: url(/src/online.jpg) no-repeat center center/cover ;
     height: 78vh;
 }
 .head{
@@ -27,4 +26,22 @@
     font-size: large;
     color: white;
     border: none;
+}
+@media  screen and (max-width:601px){
+    .head{
+        font-size: 60px;
+    }
+    .content{
+        font-size: x-large;
+    }
+    .btx{
+        padding: 30px;
+        border-radius: 35px;
+        font-size: xx-large;
+    }
+    .section{
+        min-width: 820px;
+        min-height: 150vh;
+        border: 2px solid red;
+    }
 }

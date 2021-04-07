@@ -5,11 +5,12 @@ const StatusBar = ()=>{
     return(
         <div>
         <div className="main">
-            <div >
+         
                 
                 <div className ="nav">
 
                 {/* logo */}
+
                     <div className="logo">
                         <span className="spanx">FOX.</span>
                         <span className="uni">University</span>
@@ -47,8 +48,7 @@ const StatusBar = ()=>{
                     <div >
                          <input className="inp" placeholder="search" />
                     </div>
-                </div>
-             
+               
             </div>
             
         </div>

@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    justify-items: center;
+    
     
 }
 
@@ -80,3 +80,47 @@
     color: white;
     font-size: large;
 }
+
+
+@media  screen and (max-width:601px){
+    .nav{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 10px;
+        margin: 34px;
+     
+    }
+   .main{
+       min-width: 750px;
+   }
+     .nav_items{
+         flex-wrap: wrap;
+     }
+     .inp{
+         width: 400px;
+         padding: 24px;
+         margin-left: 34px;
+         font-size: x-large;
+     }
+     .btn{
+         font-size: 40px;
+     }
+     .spanx{
+         font-size: 5rem;
+     }
+     .uni{
+         font-size: 3.1rem;
+     }
+     .applybtn{
+         font-size:50px;
+     }
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ }

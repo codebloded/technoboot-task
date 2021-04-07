@@ -1,5 +1,6 @@
 import './App.css';
 import StatusBar from './components/StatusBar'
+import './phone.css'
 
 
 function App() {

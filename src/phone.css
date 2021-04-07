@@ -1,0 +1,22 @@
+@media screen and (max-width:540px){
+   .nav{
+       display: flex;
+       flex-wrap: wrap;
+    
+   }
+   .main{
+        width: fit-content;
+    }
+    .section{
+        min-width: 750px;
+        min-height: 100vh;
+    }
+
+ 
+
+
+
+
+
+
+}
